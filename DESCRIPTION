@@ -1,0 +1,30 @@
+Package: DATRASlfd
+Type: Package
+Description: Functions to graphic and describe availabble length Distribution
+   in ices - DATRAS data base using DATRAS icesDATRAS library to obtain the data 
+Title: Package to work with DATRAS and exploring Length Distributions
+Version: 0.1.0
+Author: FVG <franvgls@gmail.com>
+Maintainer: FVG <franvgls@gmail.com>
+Depends:
+    R (>= 2.15.2),
+    data.table (>= 1.11),
+    dplyr (>= 0.7)
+LazyLoad: true
+License: GPL (>=2)
+Encoding: UTF-8
+Imports:
+    data.table,
+    dplyr,
+    plyr,
+    foreign,
+    grid,
+    gstat,
+    lattice,
+    mapdata,
+    maps,
+    RODBC,
+    tidyverse,
+    worrms,
+LazyData: true
+RoxygenNote: 6.0.1
