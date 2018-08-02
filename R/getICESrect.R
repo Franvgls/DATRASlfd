@@ -16,7 +16,6 @@ getICESarea<-function(camp,dns) {
   DB$StatRec<-paste0(DB$rectlat,DB$rectlong)
   DB$rectlat <- NULL
   DB$rectlong <- NULL
-  }
   DB$icesArea<-Area[match(DB$StatRec,Area$ICESNAME),"Area_27"]
   DB
   }
