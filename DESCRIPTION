@@ -3,7 +3,7 @@ Type: Package
 Description: R Functions to access to data, graph and describe availabble length Distribution
    in ICES - DATRAS bottom trawl data base using DATRAS icesDATRAS library to obtain the data 
 Title: Package to work with DATRAS and exploring Length Distributions
-Version: 0.1.0
+Version: 0.1.1
 Author: FVG <franvgls@gmail.com>
 Maintainer: FVG <franvgls@gmail.com>
 Depends:
