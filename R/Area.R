@@ -9,11 +9,15 @@
 #' Rectangles are nominated by the combination of rows and columns, southwesternmost corner
 #' of the griod is 01B1. Detailed information on ICES rectangles can be found on the web
 #' (http://www.ices.dk/marine-data/maps/Pages/ICES-statistical-rectangles.aspx)
-#' This data set come from the ICES GIS and contains two variables
+#' This data set come from the ICES GIS and contains six variables
 #'
-#' @format. A data frame with 6256 obs. of 2 variables:
+#' @format. A data frame with 6256 obs. of 6 variables:
 #' \itemize{
-#'   \item ICESNAME: Name of the ICES rectangle
-#'   \item Area_27: ICES area the rectangle belongs to
+#' \item{\code{ICESNAME}}{a character vector: name of the ICES rectangle}
+#' \item{\code{Area}}{ICES area the rectangle belongs to with only main areas and subareas}
+#' \item{\code{AREA_KM2}}{a numeric vector: area of the ICES rectangle in square km}
+#' \item{\code{stat_x}}{a numeric vector: ICES Rectangle lat central point}
+#' \item{\code{stat_y}}{a numeric vector: ICES Rectangle long central point}
+#' \item{\code{Area_27}}{full area definition according to ICES GIS map 20170124}
 #' }
 "Area"

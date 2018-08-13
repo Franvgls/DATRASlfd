@@ -7,7 +7,7 @@
 #' @param years The year or years to be downloaded
 #' @param towdur 60 effort considered, by default weight trawling time to 60 min
 #' @return A data.table with HL variables weighted to get lfds per towdur and including information on ICESrect and ICESarea if T
-#' @examples # getICESrect(icesDatras::getHHdata("SP-NORTH",2015,4),latname="haullat",longname="haullong")
+#' @examples # getICESarea(icesDatras::getHHdata("SP-NORTH",2015,4),latname="haullat",longname="haullong")
 #' @export
 HL4lf<-function(Esp="MEG",Espf="FAO",Survey="SP-PORC",years=c(2011:2017),quarter=3,towdur=60) {
   HLDB<-data.table::as.data.table(icesDatras::getDATRAS("HL",Survey,years,quarter))
